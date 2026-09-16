@@ -13,7 +13,7 @@ const Footer =  dynamic(()=> import("@/components/footer/Footer"),{
   ssr: false,
   
 }) ;
-const  ISIPOPUP = dynamic(()=> import("@/components/isi/ISIPOPUP"),{
+const  ISIPOPUP = dynamic(()=> import("@/components/isi/IsiPopup"),{
   ssr:false,
   loading:()=>{return <PreLoader/>}
 

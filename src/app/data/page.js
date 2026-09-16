@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import HeroContainer from "@/components/wrappers/HeroContainer";
-import Preloader from "@/components/Loaders/Preloader";
+import Preloader from "@/components/loaders/Preloader";
 
 export default function DataPage() {
   const [data, setData] = useState([]);

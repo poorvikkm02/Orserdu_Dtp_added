@@ -24,7 +24,7 @@ import { ResponsiveContext } from "@/context/ResponsiveContext";
 import border from "../../assets/images/home/border.png"
 import scr from "../../assets/images/home/scr.svg"
 import heroImage1 from "../../assets/Desktop/new/homePage_updated.png"
-import PreLoader from "@/components/loaders/PreLoader";
+import PreLoader from "@/components/loaders/Preloader";
 import img3 from "../../assets/Desktop/new/icons/img1.png"
 // import heroimg from "../../assets/Desktop/new/heroimg.png"
 import img1 from "../../assets/Desktop/new/icons/img2.png"

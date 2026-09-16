@@ -3,7 +3,7 @@
 import React, { useContext, useEffect, useState } from "react";
 // import IMPORTANT_SAFETY_INFORMATION from '../IMPORTANT_SAFETY_INFORMATION/IMPORTANT_SAFETY_INFORMATION';
 import { StoreContext } from "@/context/SlideUpContext";
-import ISIPOPUP from "../isi/ISIPOPUP";
+import ISIPOPUP from "../isi/IsiPopup";
 import smoothscroll from "smoothscroll-polyfill";
 import curve from "../../assets/mobile/curve_1.png";
 import { ResponsiveContext } from "@/context/ResponsiveContext";

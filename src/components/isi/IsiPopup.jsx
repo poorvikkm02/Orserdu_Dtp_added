@@ -2,7 +2,7 @@
 import React, { useContext, useRef, useState } from 'react'
 import { ResponsiveContext } from '@/context/ResponsiveContext';
 import Modal from '../modals/Modal';
-import Footer from '../Footer/Footer';
+import Footer from '../footer/Footer';
 
 const ISIPOPUP  = () => {
 

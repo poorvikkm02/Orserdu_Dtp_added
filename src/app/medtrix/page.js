@@ -25,7 +25,7 @@ const Medtrix = () => {
   const [resourceFilter, setResourceFilter] = useState("All");
 
   useEffect(() => {
-    fetch("/api")
+    fetch("/api/medtrix")
       .then((res) => res.json())
       .then((data) => setData(data));
   }, []);

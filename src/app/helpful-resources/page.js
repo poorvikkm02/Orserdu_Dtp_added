@@ -11,7 +11,7 @@ import arrowLight from "../../assets/images/figure/arrow-right_Light.png";
 import { gsap } from "gsap";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import smoothscroll from "smoothscroll-polyfill";
-import PreLoader from "@/components/loaders/PreLoader"; // Assuming this is your preloader component
+import PreLoader from "@/components/loaders/Preloader"; // Assuming this is your preloader component
 // import img2 from '../../assets/website_hero_images/help.png'
 import img2 from '../../assets/website_hero_images/help_2.png'
 const HeroContainer = dynamic(() => import("@/components/wrappers/HeroContainer"), {

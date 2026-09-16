@@ -11,7 +11,7 @@ import useVisibilityObserver from "@/hooks/useVisibilityObserver";
 import { ResponsiveContext } from "@/context/ResponsiveContext";
 import DOMPurify from "dompurify";
 import Footer from "../footer/Footer";
-import PreLoader from "../loaders/PreLoader";
+import PreLoader from "../loaders/Preloader";
 import { gsap } from "gsap";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import Link from "next/link";

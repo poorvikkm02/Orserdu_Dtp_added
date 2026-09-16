@@ -18,7 +18,7 @@ import dna from "../../assets/Desktop/new/newICons/dna1.png";
 import scr from "../../assets/images/home/scr.svg"
 import pill from "../../assets/Desktop/new/newICons/pill1.png"
 import Link from 'next/link';
-import PreLoader from "@/components/loaders/PreLoader";
+import PreLoader from "@/components/loaders/Preloader";
 import laptop from "../../assets/Desktop/new/newICons/laptop1.png"
 import Modal from "../modals/Modal";
 
