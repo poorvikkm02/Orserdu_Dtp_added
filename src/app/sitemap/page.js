@@ -9,7 +9,7 @@ import { ResponsiveContext } from "@/context/ResponsiveContext";
 import { StoreContext } from "@/context/SlideUpContext";
 import { useInView } from "react-intersection-observer";
 import DOMPurify from "dompurify";
-const Footer =  dynamic(()=> import("@/components/Footer/Footer"),{
+const Footer =  dynamic(()=> import("@/components/footer/Footer"),{
   ssr: false,
   
 }) ;

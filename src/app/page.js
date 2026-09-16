@@ -11,10 +11,10 @@ import { ResponsiveContext } from "@/context/ResponsiveContext";
 // import bgDesktop from "@/assets/Desktop/bg.png";
 // import cutoutDesktop from "../../assets/Desktop/cutout.png";
 
-import DesktopHeroAnimation from "@/components/Home/DesktopHeroAnimation";
+import DesktopHeroAnimation from "@/components/home/DesktopHeroAnimation";
 import useVisibilityObserver from "@/hooks/useVisibilityObserver";
 import IMPORTANT_SAFETY_INFORMATION from "@/components/isi/Isi";
-import ModbileAnimation from "@/components/Home/MobileAnimation";
+import ModbileAnimation from "@/components/home/MobileAnimation";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Footer from "@/components/footer/Footer";
