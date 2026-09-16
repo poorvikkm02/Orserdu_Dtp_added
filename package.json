@@ -1,0 +1,47 @@
+{
+  "name": "orserdu_next_v0.04",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postinstall": "cp node_modules/pdfjs-dist/build/pdf.worker.min.mjs public/pdf.worker.min.mjs"
+  },
+  "dependencies": {
+    "@studio-freight/lenis": "^1.0.42",
+    "dompurify": "^3.2.6",
+    "gsap": "^3.13.0",
+    "hamburger-react": "^2.5.2",
+    "icons": "^1.0.0",
+    "next": "14.2.30",
+    "pdfjs-dist": "^6.3.289",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-fast-marquee": "^1.6.5",
+    "react-ga4": "^2.1.0",
+    "react-icons": "^5.5.0",
+    "react-intersection-observer": "^9.16.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-shimmer-effects": "^1.0.4",
+    "react-slick": "^0.30.3",
+    "slick-carousel": "^1.8.1",
+    "smoothscroll-polyfill": "^0.4.4",
+    "swiper": "^11.2.10"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.31.0",
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
+    "autoprefixer": "^10.4.21",
+    "daisyui": "^4.12.24",
+    "eslint": "^9.31.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "globals": "^15.15.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "video.js": "^8.23.3"
+  }
+}

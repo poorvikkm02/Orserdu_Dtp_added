@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1080" height="1080" viewBox="0 0 1080 1080" xml:space="preserve">
+<desc>Created with Fabric.js 5.2.4</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 540 540)" id="519f1b30-1985-4917-8f74-7faa277846cf"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; visibility: hidden;" vector-effect="non-scaling-stroke"  x="-540" y="-540" rx="0" ry="0" width="1080" height="1080" />
+</g>
+<g transform="matrix(1 0 0 1 540 540)" id="4b184dcb-b300-4e75-8517-2499732dd0c2"  >
+</g>
+<g transform="matrix(-1.21 0 0 -1.21 540 540)"  >
+<g style=""   >
+		<g transform="matrix(1 0 0 1 0.04 0)" id="Path_608" clip-path="url(#CLIPPATH_3)"  >
+<clipPath id="CLIPPATH_3" >
+	<path transform="matrix(1 0 0 1 -0.04 0) translate(-444.72, 1.44)" id="Path_610" d="M 0 100.391 L 889.433 100.391 L 889.433 -103.27 L 0 -103.27 Z" stroke-linecap="round" />
+</clipPath>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(226,243,238); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-441.72, -98.87)" d="M 0 0 L 862.328 0 C 881.112 0 888.79 14.059 879.476 31.4 L 793.03 166.343 C 783.716 183.68599999999998 760.938 197.743 742.153 197.743 L 5.374 197.743 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 0.04 0)" id="Path_609" clip-path="url(#CLIPPATH_4)"  >
+<clipPath id="CLIPPATH_4" >
+	<path transform="matrix(1 0 0 1 -0.04 0) translate(-444.72, 1.44)" id="Path_610" d="M 0 100.391 L 889.433 100.391 L 889.433 -103.27 L 0 -103.27 Z" stroke-linecap="round" />
+</clipPath>
+<path style="stroke: rgb(255,255,255); stroke-width: 10; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-441.72, -98.87)" d="M 0 0 L 862.328 0 C 881.112 0 888.79 14.059 879.476 31.4 L 793.03 166.343 C 783.716 183.68599999999998 760.938 197.743 742.153 197.743 L 5.374 197.743 Z" stroke-linecap="round" />
+</g>
+</g>
+</g>
+</svg>

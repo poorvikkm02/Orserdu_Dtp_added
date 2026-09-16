@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_19" data-name="Layer 19" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 227.89 228.96">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #2b673c;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+
+      .cls-3 {
+        fill: #e1f5f0;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <circle className="cls-3" cx="113.88" cy="114.29" r="113.26"/>
+  <g>
+    <line className="cls-1" x1="70.43" y1="167.43" x2="141.05" y2="167.43"/>
+    <polyline className="cls-2" points="129.21 181.9 111.75 222.86 180.26 222.86 162.8 181.9"/>
+    <g>
+      <rect className="cls-2" x="98.85" y="51.73" width="120.61" height="51.05" transform="translate(-8.57 133.55) rotate(-44.45)"/>
+      <polygon className="cls-2" points="223.03 26.13 207.89 40.82 196.52 29.23 211.66 14.54 223.03 26.13"/>
+      <line className="cls-1" x1="117.34" y1="82.51" x2="153.1" y2="118.96"/>
+    </g>
+    <path className="cls-1" d="M194.36,78.48c9.56,11.14,15.34,25.62,15.34,41.45,0,35.17-28.51,63.68-63.68,63.68-16.29,0-31.15-6.12-42.41-16.18"/>
+  </g>
+</svg>

@@ -1,0 +1,200 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
+
+body{
+  font-family: Sofia Sans Semi Condensed, lato, sans-serif
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+
+
+}
+.bs{
+  box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.04) 0px 6px 6px -3px, rgba(14, 63, 126, 0.04) 0px 12px 12px -6px, rgba(14, 63, 126, 0.04) 0px 24px 24px -12px;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ebebeb;
+  -webkit-border-radius: 10px;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, #087141, #6bcdb2); 
+}
+html{
+  scroll-behavior: auto;
+}
+.side_shadow{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px -3px 3px 0px;
+  
+
+}
+.shadow_f{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.shadow_round{
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.box_shadow{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+i {
+  font-style: italic;
+  font-weight: normal; /* Adjust this if needed */
+}
+em{
+  font-style: italic;
+  font-weight: normal;
+}
+/* preLOader */
+/* From Uiverse.io by satyamchaudharydev */ 
+/* HTML: <div className="loader"></div> */
+.loader {
+  width: 75px;
+  aspect-ratio: 1; 
+  display: grid;
+
+}
+.loader:before,
+.loader:after {
+  background-color: #006937;
+  content: "";
+  grid-area: 1/1;
+  width: 35px;
+  aspect-ratio: 1;
+  /* box-shadow: 0 0 0 3px #fff inset; */
+  filter: drop-shadow(40px 40px 0 #006937);
+  animation: l8 2s infinite alternate;
+}
+.loader:after {
+  background-color: #FEE669;
+  margin: 0 0 0 auto; 
+  filter: drop-shadow(-40px 40px 0 #FEE669);
+  animation-delay: -1s;
+}
+
+img, a {
+  user-drag: none;       /* Prevent drag */
+  -webkit-user-drag: none;
+  user-select: none;     /* Prevent text selection */
+  -webkit-user-select: none;
+}
+
+@keyframes l8 {
+  0%,10%   {border-radius:0}
+  30%,40%  {border-radius:50% 0}
+  60%,70%  {border-radius:50%}
+  90%,100% {border-radius:0 50%}
+}
+.fadeEffectMbl {
+  -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 5%, black 10%, black 90%, rgba(0,0,0,0.5) 95%, rgba(0,0,0,0) 100%);
+  mask-image: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 5%, black 10%, black 90%, rgba(0,0,0,0.5) 95%, rgba(0,0,0,0) 100%);
+}
+
+.fadeEffectMblbottom {
+  -webkit-mask-image: linear-gradient(to bottom, black 95%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 95%, transparent 100%);
+}
+
+
+/* menu css */
+/* Target the hamburger lines */
+/* .hamburger-react div {
+
+  /* height: 2px !important; */
+  /* height: 5px !important; Bar thickness */
+  /* width: 30px !important; Full width for cross */ 
+
+/* Adjust the overall container dimensions */
+.icon {
+  -webkit-text-stroke: 2px;
+}
+
+@media (min-width: 600px) {
+  
+
+}
+
+
+
+
+
+
+.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE and Edge */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+@supports (-webkit-touch-callout: none) {
+  .safari-mt-fix {
+    margin-top: -1rem; /* -mt-4 */
+  }
+  .safari_scroll_fix {
+   bottom:75px !important; 
+  }
+}
+
+
+/*  */
+.thubShadow{
+box-shadow: 0px 1px 10px 5px rgba(0, 0, 0, 0.35);
+}
+
+@keyframes ripple {
+  0% { transform: scale(0); opacity: 0.4; }
+  100% { transform: scale(3); opacity: 0; }
+}
+sup {
+  vertical-align: -0.3em; /* reduce height */
+  font-size: 14px !important; /* reduce size */
+}
+
+.sup-custom {
+  vertical-align: 0.2em;  /* different position */
+  font-size: 10px;         /* different size */
+}
+
+/* @media (min-width: 1280px) {
+  ul.list-disc {
+    padding-left: 5px;
+  }
+} */
+
+/* ul {
+  list-style-position: inside !important;
+} */

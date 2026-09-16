@@ -1,0 +1,118 @@
+/* Light */
+@font-face {
+  font-family: 'Sofia Sans Semi Condensed';
+  src: url('../app/fonts/myfonts/SofiaSansSemiCondensed-Light.woff2') format('woff2'),
+       url('../app/fonts/myfonts/SofiaSansSemiCondensed-Light.woff') format('woff'); /* Fallback */
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sofia Sans Semi Condensed';
+  src: url('../app/fonts/myfonts/SofiaSansSemiCondensed-LightItalic.woff2') format('woff2'),
+       url('../app/fonts/myfonts/SofiaSansSemiCondensed-LightItalic.woff') format('woff'); /* Fallback */
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Regular */
+@font-face {
+  font-family: 'Sofia Sans Semi Condensed';
+  src: url('../app/fonts/myfonts/SofiaSansSemiCondensed-Regular.woff2') format('woff2'),
+       url('../app/fonts/myfonts/SofiaSansSemiCondensed-Regular.woff') format('woff'); /* Fallback */
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sofia Sans Semi Condensed';
+  src: url('../app/fonts/myfonts/SofiaSansSemiCondensed-Italic.woff2') format('woff2'),
+       url('../app/fonts/myfonts/SofiaSansSemiCondensed-Italic.woff') format('woff'); /* Fallback */
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Medium */
+@font-face {
+  font-family: 'Sofia Sans Semi Condensed';
+  src: url('../app/fonts/myfonts/SofiaSansSemiCondensed-Medium.woff2') format('woff2'),
+       url('../app/fonts/myfonts/SofiaSansSemiCondensed-Medium.woff') format('woff'); /* Fallback */
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sofia Sans Semi Condensed';
+  src: url('../app/fonts/myfonts/SofiaSansSemiCondensed-MediumItalic.woff2') format('woff2'),
+       url('../app/fonts/myfonts/SofiaSansSemiCondensed-MediumItalic.woff') format('woff'); /* Fallback */
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* SemiBold */
+@font-face {
+  font-family: 'Sofia Sans Semi Condensed';
+  src: url('../app/fonts/myfonts/SofiaSansSemiCondensed-SemiBold.woff2') format('woff2'),
+       url('../app/fonts/myfonts/SofiaSansSemiCondensed-SemiBold.woff') format('woff'); /* Fallback */
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sofia Sans Semi Condensed';
+  src: url('../app/fonts/myfonts/SofiaSansSemiCondensed-SemiBoldItalic.woff2') format('woff2'),
+       url('../app/fonts/myfonts/SofiaSansSemiCondensed-SemiBoldItalic.woff') format('woff'); /* Fallback */
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* Bold */
+@font-face {
+  font-family: 'Sofia Sans Semi Condensed';
+  src: url('../app/fonts/myfonts/SofiaSansSemiCondensed-Bold.woff2') format('woff2'),
+       url('../app/fonts/myfonts/SofiaSansSemiCondensed-Bold.woff') format('woff'); /* Fallback */
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sofia Sans Semi Condensed';
+  src: url('../app/fonts/myfonts/SofiaSansSemiCondensed-BoldItalic.woff2') format('woff2'),
+       url('../app/fonts/myfonts/SofiaSansSemiCondensed-BoldItalic.woff') format('woff'); /* Fallback */
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* ExtraBold */
+@font-face {
+  font-family: 'Sofia Sans Semi Condensed';
+  src: url('../app/fonts/myfonts/SofiaSansSemiCondensed-ExtraBold.woff2') format('woff2'),
+       url('../app/fonts/myfonts/SofiaSansSemiCondensed-ExtraBold.woff') format('woff'); /* Fallback */
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sofia Sans Semi Condensed';
+  src: url('../app/fonts/myfonts/SofiaSansSemiCondensed-ExtraBoldItalic.woff2') format('woff2'),
+       url('../app/fonts/myfonts/SofiaSansSemiCondensed-ExtraBoldItalic.woff') format('woff'); /* Fallback */
+  font-weight: 800;
+  font-style: italic;
+}
+
+/* Black */
+@font-face {
+  font-family: 'Sofia Sans Semi Condensed';
+  src: url('../app/fonts/myfonts/SofiaSansSemiCondensed-Black.woff2') format('woff2'),
+       url('../app/fonts/myfonts/SofiaSansSemiCondensed-Black.woff') format('woff'); /* Fallback */
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sofia Sans Semi Condensed';
+  src: url('../app/fonts/myfonts/SofiaSansSemiCondensed-BlackItalic.woff2') format('woff2'),
+       url('../app/fonts/myfonts/SofiaSansSemiCondensed-BlackItalic.woff') format('woff'); /* Fallback */
+  font-weight: 900;
+  font-style: italic;
+}
