@@ -139,7 +139,7 @@ const handleScroll = (id) => {
               >
                 {route.label.includes("ESR1") ? (
                   <span className="underline">
-                    Understanding <i className="font-[600]">ESR1</i> mutations
+                    Understanding <i className="font-[600]">ESR1</i> mutation
                   </span>
                 ) : (
                   route.label
